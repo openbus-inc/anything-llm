@@ -56,7 +56,7 @@ const RecoveryForm = ({ onSubmit, setShowRecoveryForm }) => {
               placeholder={t("login.multi-user.placeholder-username")}
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="bg-zinc-900 text-white placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
+              className="bg-zinc-900 text-white placeholder-white/20 text-sm text-base rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
               required
             />
           </div>
@@ -76,7 +76,7 @@ const RecoveryForm = ({ onSubmit, setShowRecoveryForm }) => {
                   onChange={(e) =>
                     handleRecoveryCodeChange(index, e.target.value)
                   }
-                  className="bg-zinc-900 text-white placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
+                  className="bg-zinc-900 text-white placeholder-white/20 text-sm text-base rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
                   required
                 />
               </div>
